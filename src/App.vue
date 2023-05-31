@@ -21,15 +21,17 @@ export default {
 </script>
 
 <template>
-    <header>
-        <HeaderApp />
-    </header>
-    <main>
-        <MainApp />
-    </main>
-    <footer>
-        <FooterApp />
-    </footer>
+    <div> <!-- Make easier to turn everything in darkmode -->
+        <header class="flex jc-center ai-center">
+            <HeaderApp />
+        </header>
+        <main>
+            <MainApp />
+        </main>
+        <footer>
+            <FooterApp />
+        </footer>
+    </div>
 </template>
 
 <style lang="scss" scoped>
