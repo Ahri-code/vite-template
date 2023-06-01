@@ -52,6 +52,10 @@
     width: 70%;
 }
 
+.w-60per {
+    width: 60%;
+}
+
 .w-20per {
     width: 20%;
 }
@@ -78,6 +82,10 @@
 
 .p-2 {
     padding: 2rem;
+}
+
+.p-1-0 {
+    padding: 1rem 0;
 }
 
 // --- COLORS ---
@@ -114,4 +122,14 @@
 
 .upperCase {
     text-transform: uppercase;
+}
+
+// --- POSITION ---
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
 }

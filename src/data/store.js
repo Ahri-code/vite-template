@@ -2,13 +2,34 @@ import { reactive } from "vue";
 
 export const store = reactive({
     headNavbar: {
-        home: "Home",
-        recipies: "Recipies",
-        places: "Places",
-        blog: "Blog",
-        about: "About",
-        contact: "Contacts",
-        search: "fa-solid fa-magnifying-glass"
+        home: {
+            tab: "Home",
+            check: true
+        },
+        recipies: {
+            tab: "Recipies",
+            check: true
+        },
+        places: {
+            tab: "Places",
+            check: true
+        },
+        blog: {
+            tab: "Blog",
+            check: true
+        },
+        about: {
+            tab: "About",
+            check: true
+        },
+        contact: {
+            tab: "Contacts",
+            check: true
+        },
+        search: {
+            class: "fa-solid fa-magnifying-glass",
+            check: false
+        }
     },
     followUs: {
         facebook: "fa-brands fa-facebook-f",

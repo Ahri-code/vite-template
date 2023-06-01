@@ -22,7 +22,7 @@ export default {
 
 <template>
     <div> <!-- Make easier to turn everything in darkmode -->
-        <header class="flex jc-center ai-center">
+        <header class="flex jc-center ai-center fd-columns">
             <HeaderApp />
         </header>
         <main>
