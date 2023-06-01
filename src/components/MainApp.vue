@@ -1,10 +1,17 @@
 <script>
+import Jumbotron from './mainComponent/Jumbotron.vue'
+
 export default {
-    name: "MainApp"
+    name: "MainApp",
+    components: {
+        Jumbotron
+    }
 }
 </script>
 
-<template></template>
+<template>
+    <Jumbotron />
+</template>
 
 <style lang="scss" scoped>
 @use '../style/specific/utility.scss' as *;

@@ -1,12 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100;200;300;400;500;600;700&display=swap');
+@import 'https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100;200;300;400;500;600;700&display=swap';
+
+// --- VARIABLES ---
+
+$green: #20ad96;
+$gray: #67615a;
+$light-gray: #f5f5f1;
+$white: #fff;
+$black: #000;
+
+// --- HEADER ---
 
 #topHeader {
-    color: #67615a;
+    color: $gray;
     padding: 1rem 0;
 
     a {
         text-decoration: none;
-        color: #67615a;
+        color: $gray;
         font-size: 14px;
 
         &:hover {
@@ -16,10 +26,9 @@
 
     span {
         padding: 0.25rem;
-        color: #fff;
-        background-color: #20ad96;
+        color: $white;
+        background-color: $green;
         border-radius: 5px;
-        margin-left: 4px;
         font-size: 12px;
     }
 }
@@ -27,20 +36,86 @@
 header {
     nav {
         a {
-            color: black;
+            color: $black;
             text-decoration: none;
 
             &:hover {
-                color: #20ad96;
+                color: $green;
             }
         }
 
-        .bg-orange {
-            background-color: #20ad96;
+        .bg-green {
+            background-color: $green;
             width: 90%;
             height: 3px;
-            border-radius: 5px;
             bottom: 0;
+        }
+    }
+}
+
+// --- MAIN ---
+
+main {
+    background-color: $light-gray;
+
+    #jumbotron {
+        background-image: url('/src/assets/single-post-img3-1200x790.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100% 70vh;
+
+        #todaysPick {
+            background-color: $white;
+            width: 40%;
+            padding: 2rem 3rem;
+            margin: 20vh 0;
+            text-align: center;
+
+            div {
+                color: $white;
+                text-transform: uppercase;
+                background-color: $green;
+                padding: 0.5rem 1rem;
+                border-radius: 5px;
+                transform: translate(-50%, -50%);
+                top: 0;
+                left: 50%;
+            }
+
+            h1 {
+                font-weight: 700;
+                font-family: 'IBM Plex Serif', serif;
+                padding-bottom: 1rem;
+            }
+
+            p {
+                color: $gray;
+            }
+        }
+
+        #journal {
+            background-color: $white;
+            padding: 1rem 0;
+
+            hr {
+                width: 35%;
+                border: 1px solid $light-gray;
+            }
+
+            #cards {
+                img {
+                    width: 95%;
+                }
+
+                h3 {
+                    font-family: 'IBM Plex Serif', serif;
+                    padding: 1rem;
+                }
+
+                p {
+                    color: $gray;
+                }
+            }
         }
     }
 }

@@ -26,10 +26,10 @@ export default {
 
 <template>
     <!-- TOP -->
-    <div class="flex jc-between ai-center w-80per" id="topHeader">
+    <div class="flex jc-between ai-center w-70per" id="topHeader">
         <div class="flex jc-between ai-center w-20per">
             <div>
-                <a href="#"><small>Download App</small></a>
+                <a href="#" class="space"><small>Download App</small></a>
                 <small><span>iOS</span></small>
             </div>
             <a href="#"><small>Advertise with App</small></a>
@@ -41,15 +41,15 @@ export default {
         </div>
     </div>
     <!-- LOGO -->
-    <div class="p-1">
+    <div>
         <img :src="logoPrint()" alt="Logo">
     </div>
     <!-- NAVBAR -->
-    <nav class="flex jc-between ai-center w-60per">
+    <nav class="flex jc-between ai-center w-40per p-025-0">
         <div v-for="item in store.headNavbar" class="relative">
             <div class="flex jc-center ai-center fd-columns" @mouseenter="enterDetect(item)" @mouseleave="isHover = false">
                 <a href="#" :class="(item.check == false) ? `${item.class}` : ''" class="p-1-0">{{ item.tab }}</a>
-                <div v-if="isHover == true && item == itemChecker" class="bg-orange absolute"></div>
+                <div v-if="isHover == true && item == itemChecker" class="bg-green absolute"></div>
             </div>
         </div>
     </nav>

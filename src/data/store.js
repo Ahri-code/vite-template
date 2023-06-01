@@ -36,5 +36,22 @@ export const store = reactive({
         instagram: "fa-brands fa-instagram",
         twitter: "fa-brands fa-twitter",
         youtube: "fa-brands fa-youtube"
+    },
+    journalCards: {
+        choppingBoard: {
+            img: '/src/assets/single-post-img3-400x263.jpg',
+            title: "Food Corner: Top Japanese Restaurants for Sushi",
+            writer: "admin"
+        },
+        roundUp: {
+            img: '/src/assets/fi-roundup-400x263.jpg',
+            title: "Food Corner: Top Japanese Restaurants for Sushi",
+            writer: "admin"
+        },
+        toast: {
+            img: '/src/assets/fi-toasts-400x263.jpg',
+            title: "Food Corner: Top Japanese Restaurants for Sushi",
+            writer: "admin"
+        }
     }
 });
