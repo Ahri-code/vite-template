@@ -35,7 +35,7 @@ export default {
             <!-- Title -->
             <div class="flex jc-evenly ai-center p-1">
                 <hr>
-                <p class="upperCase">foodie journal</p>
+                <h2>foodie journal</h2>
                 <hr>
             </div>
             <!-- Cards -->

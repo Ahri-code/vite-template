@@ -1,6 +1,6 @@
 <script>
 import { store } from '../data/store'
-import Logo from '../assets/avada-food-logo.png'
+import Logo from '../assets/Logo/avada-food-logo.png'
 import '/node_modules/@fortawesome/fontawesome-free/css/all.min.css';
 
 export default {
