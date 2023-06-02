@@ -47,7 +47,7 @@ export default {
                             nobis in esse doloremque? At, praesentium!
                         </p>
                     </div>
-                    <button>
+                    <button class="stdButton">
                         learn more
                     </button>
                 </div>

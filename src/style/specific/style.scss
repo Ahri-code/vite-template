@@ -14,6 +14,20 @@ $black: #000;
     color: $gray;
 }
 
+.stdButton {
+    background-color: $green;
+    color: $white;
+    border: 0;
+    border-radius: 2px;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.w-48per {
+    width: 48%;
+}
+
 // --- HEADER ---
 
 #topHeader {
@@ -79,7 +93,7 @@ main {
 
     // --- Jumbotron ---
     #jumbotron {
-        background-image: url('/src/assets/Background/single-post-img3-1200x790.jpg');
+        background-image: url('/src/assets/Background/single-post-img3.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-size: 100% 70vh;
@@ -162,16 +176,6 @@ main {
                 hr {
                     border: 1px dotted $light-gray;
                 }
-
-                button {
-                    background-color: $green;
-                    color: $white;
-                    border: 0;
-                    border-radius: 2px;
-                    padding: 1rem;
-                    text-transform: uppercase;
-                    font-size: small;
-                }
             }
         }
     }
@@ -193,6 +197,28 @@ main {
                     font-size: small;
                     padding-top: 1rem;
                 }
+            }
+        }
+    }
+
+    // --- Blog ---
+    #blog {
+        margin-top: 4rem;
+
+        .card {
+            background-color: $white;
+        }
+
+        .smaller {
+            text-align: center;
+
+            h3 {
+                padding: 0;
+            }
+
+            p {
+                padding-top: 0.25rem;
+                font-size: small;
             }
         }
     }
