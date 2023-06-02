@@ -175,4 +175,25 @@ main {
             }
         }
     }
+
+    // --- Culinary Collection ---
+    #culinaryNav {
+        margin-top: 4rem;
+
+        nav {
+            padding: 1rem 0;
+
+            div {
+                background-color: $white;
+                width: 23%;
+                padding: 1rem 0;
+                cursor: pointer;
+
+                p {
+                    font-size: small;
+                    padding-top: 1rem;
+                }
+            }
+        }
+    }
 }

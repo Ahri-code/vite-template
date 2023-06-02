@@ -63,5 +63,39 @@ export const store = reactive({
         cocktail: '/src/assets/RecipesDishes/perfect-cosmopolitan-460x295.jpg',
         fruits: '/src/assets/RecipesDishes/fi2x-6-460x295.jpg',
         pie: '/src/assets/RecipesDishes/r-brooke-lark-96398-unsplash-min-460x295.jpg'
+    },
+    CulinaryNav: {
+        drinks: {
+            img: '/src/assets/CulinaryNav/drinks-recipes.png',
+            text: "drinks"
+        },
+        soups: {
+            img: '/src/assets/CulinaryNav/soups-recipes.png',
+            text: "soups"
+        },
+        bakery: {
+            img: '/src/assets/CulinaryNav/baking-recipes.png',
+            text: "bakery"
+        },
+        dinner: {
+            img: '/src/assets/CulinaryNav/dinner-recipes.png',
+            text: "dinner"
+        },
+        healthy: {
+            img: '/src/assets/CulinaryNav/healthy-recipes.png',
+            text: "healthy"
+        },
+        staffPicks: {
+            img: '/src/assets/CulinaryNav/staff-picks.png',
+            text: "staff picks"
+        },
+        appetisers: {
+            img: '/src/assets/CulinaryNav/premium-recipes.png',
+            text: "appetisers"
+        },
+        quickEasy: {
+            img: '/src/assets/CulinaryNav/quick-easy-recipes.png',
+            text: "quick & easy"
+        },
     }
 });
