@@ -6,7 +6,7 @@ export default {
     name: "Jumbotron",
     data() {
         return {
-            date: moment().format('MMMM Do YYYY'),
+            date: moment().format('MMMM Do, YYYY'),
             store
         }
     },

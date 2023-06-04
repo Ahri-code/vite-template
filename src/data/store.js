@@ -39,6 +39,13 @@ export const store = reactive({
         twitter: "fa-brands fa-twitter",
         youtube: "fa-brands fa-youtube"
     },
+    followUsPinterest: {
+        facebook: "fa-brands fa-facebook-f",
+        instagram: "fa-brands fa-instagram",
+        twitter: "fa-brands fa-twitter",
+        youtube: "fa-brands fa-youtube",
+        pinterest: "fa-brands fa-pinterest-p"
+    },
     // --- Cardsfor the journal ---
     journalCards: {
         choppingBoard: {
@@ -104,48 +111,62 @@ export const store = reactive({
         },
     },
     // --- Last articles ---
-    otherArticle: {
-        choppingBoard: {
+    otherArticle: [
+        {
             img: '/src/assets/OtherArticle/single-post-img3-800x527.jpg',
             title: "Food Corner: Top Japanese Restaurants for Sushi",
             writer: "admin",
             active: true
         },
-        roundUp: {
+        {
             img: '/src/assets/OtherArticle/fi-roundup-800x527.jpg',
             title: "Food Corner: Top Japanese Restaurants for Sushi",
             writer: "admin",
             active: false
         },
-        koreanFood: {
+        {
             img: '/src/assets/OtherArticle/fi-korean-food-800x527.jpg',
             title: "Food Corner: Top Japanese Restaurants for Sushi",
             writer: "admin",
             active: false
         },
-        toast: {
+        {
             img: '/src/assets/OtherArticle/fi-toasts-800x527.jpg',
             title: "Food Corner: Top Japanese Restaurants for Sushi",
             writer: "admin",
             active: false
         },
-        streetFood: {
+        {
             img: '/src/assets/OtherArticle/fi-street-food-800x527.jpg',
             title: "Food Corner: Top Japanese Restaurants for Sushi",
             writer: "admin",
             active: false
         },
-        salad: {
+        {
             img: '/src/assets/OtherArticle/fi-organic-breakfast-800x527.jpg',
             title: "Food Corner: Top Japanese Restaurants for Sushi",
             writer: "admin",
             active: false
         },
-        waterRestaurant: {
+        {
             img: '/src/assets/OtherArticle/fi-water-side-rest-800x527.jpg',
             title: "Food Corner: Top Japanese Restaurants for Sushi",
             writer: "admin",
             active: false
+        }
+    ],
+    otherArticleSel: {
+        japaneseRestaurant: {
+            img: '/src/assets/RoundImg/single-post-img3-66x66.jpg',
+            title: "Food Corner: Top Japanese Restaurants for Sushi"
+        },
+        singapore: {
+            img: '/src/assets/RoundImg/singapore-featured-image-66x66.jpg',
+            title: "Food Corner: Top Japanese Restaurants for Sushi"
+        },
+        nutritionalTips: {
+            img: '/src/assets/RoundImg/slide1-bg-66x66.jpg',
+            title: "Food Corner: Top Japanese Restaurants for Sushi"
         }
     }
 });
