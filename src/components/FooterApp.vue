@@ -17,6 +17,12 @@ export default {
     <Subscribe />
     <ImageFooter />
     <UsefulLink />
+    <div class="flex jc-center w-100per" id="copyright">
+        <div class="flex jc-center ai-center w-50per">
+            <i class="fa-regular fa-copyright space"></i>
+            <p> Copyright 2012 - 2020 1 Avada Theme by ThemeFusion I All Rights Reserved I Powered by WordPress</p>
+        </div>
+    </div>
 </template>
 
 <style lang="scss" scoped>
