@@ -168,5 +168,11 @@ export const store = reactive({
             img: '/src/assets/RoundImg/slide1-bg-66x66.jpg',
             title: "Food Corner: Top Japanese Restaurants for Sushi"
         }
+    },
+    footerImg: {
+        Nan: "/src/assets/Footer/Yogurt-Nan-600x395.jpg",
+        fruit: "/src/assets/Footer/Mixed-fruits-600x395.jpg",
+        breakfast: "/src/assets/Footer/r-rachel-park-366508-unsplash-min-600x395.jpg",
+        icecream: "/src/assets/Footer/r-michelle-tsang-500721-unsplash-min-600x395.jpg"
     }
 });
