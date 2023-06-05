@@ -174,5 +174,21 @@ export const store = reactive({
         fruit: "/src/assets/Footer/Mixed-fruits-600x395.jpg",
         breakfast: "/src/assets/Footer/r-rachel-park-366508-unsplash-min-600x395.jpg",
         icecream: "/src/assets/Footer/r-michelle-tsang-500721-unsplash-min-600x395.jpg"
-    }
+    },
+    links: ["Recipes", "Places", "Blog", "About", "Contact"],
+    contactUs: {
+        address: {
+            class: "fa-solid fa-location-dot",
+            text: "775 New York Ave, Brooklyn, Kings, New York 11203"
+        },
+        phoneNumber: {
+            class: "fa-solid fa-phone-flip",
+            text: "+ 0100-505-0000"
+        },
+        mail: {
+            class: "fa-solid fa-envelope",
+            text: "info@your-domain.com"
+        }
+    },
+    app: ["/src/assets/Apps/download-android-200x66.png", "/src/assets/Apps/download-app-store-200x66.png"]
 });
